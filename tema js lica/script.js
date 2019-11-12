@@ -13,6 +13,10 @@ function apasat2()
 {
     alert('butonul a fost apasat')
 }
+function apasat3()
+{
+    alert('ai vrea sa apesi acest buton?')
+}
 function miscat()
 {
     console.log('ai vrea sa apesi acest buton?')
