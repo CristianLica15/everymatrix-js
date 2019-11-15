@@ -1,11 +1,61 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <title>Flow</title>
 </head>
-<body>
 
+<body>
+    <p id="message"></p>
+
+
+    <script>
+        var value = window.prompt(),
+        paragraph = document.getElementById('message'),
+        message = 'Nr este '
+
+        console.log('Valoare este: ' + value)
+
+        if (value % 2 === 0) {
+           message += 'par.'
+           // message = message +
+        }
+        else {
+            message += 'impar.'
+        } 
+           if(value < 20)
+           {
+               message += 'numarul este mai mic de 20'
+           };
+          
+           
+               if(value > 20)
+               {
+                   message += 'numarul este mai mare de 20  '
+               }
+           
+              var name = prompt("Care este numele tau?  ")
+               
+               if(name)
+               {
+                   message += name
+               }
+
+               var secondName = prompt('Care este numele tau iar'),
+               paragraph = document.getElementById('message'),
+               message = '';
+
+               if(secondName.includes('a'))
+               {
+                   message = 'numele introdus contine litera a ';
+               }else
+               {
+                   message = 'Numele introdus nu contine litera a';
+               }
+      paragraph.innerText = message;
+    </script>
 
 </body>
+
 </html>

@@ -16,6 +16,8 @@ var person = {
     name: 'Carol',
     surname: 'Carolson',
     age: 29
+},{
+    skills: ['ma numesc,si am..']
 }]
 };
 console.log(person.friends);
